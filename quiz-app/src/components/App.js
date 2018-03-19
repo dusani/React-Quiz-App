@@ -101,8 +101,8 @@ class App extends Component {
       var scorebox = " ";
       var results = <Result {...this.state} />;
     } else {
-      var scorebox = <Scorebox {...this.state} />;
-      var results = " ";
+      scorebox = <Scorebox {...this.state} />;
+      results = " ";
     }
     return (
       <div>

@@ -6,9 +6,9 @@ class Result extends Component {
     if (percent > 80) {
       var message = "Awesome Job";
     } else if (percent < 80 && percent > 60) {
-      var message = "You Did Ok";
+      message = "You Did Ok";
     } else {
-      var message = "You did Horrible";
+      message = "You did Horrible";
     }
 
     return (

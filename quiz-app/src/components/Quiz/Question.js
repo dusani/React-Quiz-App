@@ -11,7 +11,7 @@ class Question extends Component {
       setScore(this.props.score + 1);
     }
 
-    setCurrent(this.props.score + 1);
+    setCurrent(this.props.current + 1);
   }
   render() {
     const { question } = this.props;
